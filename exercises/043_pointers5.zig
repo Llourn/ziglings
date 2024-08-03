@@ -1,4 +1,3 @@
-//
 // As with integers, you can pass a pointer to a struct when you
 // will wish to modify that struct. Pointers are also useful when
 // you need to store a reference to a struct (a "link" to it).
@@ -68,7 +67,7 @@ pub fn main() void {
 
     // FIX ME!
     // Please pass Glorp to printCharacter():
-    printCharacter(???);
+    printCharacter(&glorp);
 }
 
 // Note how this function's "c" parameter is a pointer to a Character struct.
